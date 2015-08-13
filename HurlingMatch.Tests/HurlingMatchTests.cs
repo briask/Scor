@@ -17,6 +17,16 @@ namespace HurlingMatchTests
         }
 
         [Fact]
+        public void AddTeam_HasAwayTeamName_AddsAwayTeam()
+        {
+            var match = new HurlingMatch();
+
+            match.AddTeam(TeamType.Away, "AwayTeam");
+
+            Assert.Equal("AwayTeam", match.TeamNames[(int)TeamType.Away]);
+        }
+
+        [Fact]
         public void AddScore_ValidScore_ScoreAdded()
         {
             var match = new HurlingMatch();

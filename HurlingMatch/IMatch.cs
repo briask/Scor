@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ScorMatchImpl
 {
-    interface IMatch
+    public interface IMatch
     {
         void AddTeam(TeamType team, string teamName);
 

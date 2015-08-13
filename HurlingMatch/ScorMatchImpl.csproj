@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameFactory.cs" />
     <Compile Include="GameType.cs" />
     <Compile Include="HurlingMatch.cs" />
     <Compile Include="IHurlingMatch.cs" />
